@@ -83,10 +83,11 @@
         }
 
         .loader-overlay img {
-            width: 100px;
-            height: 100px;
+            width: 120px;
+            height: 120px;
             object-fit: contain;
             filter: invert(1);
+            mix-blend-mode: screen;
             animation: breathe 2s ease-in-out infinite;
         }
 
@@ -192,10 +193,11 @@
 
         .hero-logo-container img {
             display: block;
-            width: 130px;
-            height: 130px;
+            width: 180px;
+            height: 180px;
             object-fit: contain;
             filter: invert(1);
+            mix-blend-mode: screen;
         }
 
         .hero-badge {
@@ -596,15 +598,16 @@
 
         .site-footer img {
             display: block;
-            width: 32px; height: 32px;
+            width: 44px; height: 44px;
             object-fit: contain;
             filter: invert(1);
-            opacity: 0.3;
+            mix-blend-mode: screen;
+            opacity: 0.4;
             margin: 0 auto 14px;
             transition: opacity 0.3s;
         }
 
-        .site-footer img:hover { opacity: 0.5; }
+        .site-footer img:hover { opacity: 0.6; }
 
         .footer-text {
             font-size: 10px;
@@ -663,7 +666,7 @@
         /* ===================== RESPONSIVE ===================== */
         @media (min-width: 768px) {
             .hero { padding: 110px 40px 56px; }
-            .hero-logo-container img { width: 150px; height: 150px; }
+            .hero-logo-container img { width: 220px; height: 220px; }
             .menu { padding: 0 32px 80px; }
             .cat-head { padding: 20px 24px; }
             .stats { gap: 48px; padding-bottom: 40px; }
