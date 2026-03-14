@@ -24,13 +24,18 @@
             { name: "Pişirme Ürünleri", sub: "Tencere, tava ve pişirme setleri", pdf: "pdfs/CompressedPişirme Ürünleri.pdf" },
             { name: "Endüstriyel Pişirme Cihazları", sub: "Ticari pişirme ekipmanları", pdf: "pdfs/CompressedEndüstriyel Pişirme Cihazları.pdf" }
         ]},
+        { title: "Pastacılık & Fırıncılık", icon: "🧁", items: [
+            { name: "Pastacılık Ekipmanları", sub: "Profesyonel pastacılık araçları", pdf: "pdfs/CompressedPastacılık Ekipmanları.pdf" },
+            { name: "Yardımcı Pastacılık Ürünleri", sub: "Pastacılık yardımcı gereçleri", pdf: "pdfs/CompressedYardımcı Pastacılık Ürünleri.pdf" }
+        ]},
         { title: "Açık Büfe & Teşhir Sistemleri", icon: "✨", items: [
             { name: "Teşhir Ürünleri", sub: "Görsel sunum ve teşhir üniteleri", pdf: "pdfs/CompressedTeşhir Ürünleri.pdf" },
             { name: "Büfe Servis & Aksesuarları", sub: "Büfe ekipmanları", pdf: "pdfs/CompressedBüfe Servis & Aksesuarları.pdf" },
             { name: "Genel Amaçlı Yiyecek Arabaları", sub: "Servis ve taşıma arabaları", pdf: "pdfs/CompressedGenel Amaçlı Yiyecek Arabaları.pdf" }
         ]},
-        { title: "Housekeeping", icon: "🧹", items: [
-            { name: "Housekeeping Ekipmanları", sub: "Temizlik ve düzen ekipmanları", pdf: "pdfs/CompressedHousekeeping Ekipmanları.pdf" }
+        { title: "Housekeeping & Operasyonel", icon: "🧹", items: [
+            { name: "Housekeeping Ekipmanları", sub: "Temizlik ve düzen ekipmanları", pdf: "pdfs/CompressedHousekeeping Ekipmanları.pdf" },
+            { name: "Operasyonel Ekipmanlar", sub: "İşletme operasyon ekipmanları", pdf: "pdfs/CompressedOperasyonel Ekipmanlar.pdf" }
         ]},
         { title: "Tekstil Ürünleri", icon: "🛏️", items: [
             { name: "Yatak Tekstili", sub: "Premium yatak ve nevresim ürünleri", pdf: "pdfs/CompressedYatak Tekstil Ürünleri.pdf" },
